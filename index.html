@@ -17,7 +17,7 @@
 		<!-- Site Title -->
 		<title>Jonah Killam</title>
 
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 			<!--
 			CSS
 			============================================= -->
@@ -35,7 +35,7 @@
 				<header class="default-header">
 					<nav class="navbar navbar-expand-lg  navbar-light">
 						<div class="container">
-							  <a class="navbar-brand" href="index.html">
+							  <a class="navbar-brand" href="">
 							  	<img src="img/initials.png" alt="" width="50px">
 							  </a>
 							  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,16 +59,16 @@
 								    </li>
 									<li><a href="#contact">Contact</a></li>
 							    </ul>
-							  </div>						
+							  </div>
 						</div>
 					</nav>
 				</header>
-				<!-- End Header Area -->				
+				<!-- End Header Area -->
 			<div class="container">
 				<div class="row justify-content-start align-items-center">
 					<div class="col-lg-6 col-md-12 no-padding banner-right">
 						<img class="img-fluid" src="img/headshot.png" alt="">
-					</div>						
+					</div>
 					<div class="col-lg-6 col-md-12 banner-left">
 						<h1 class="text-white">
 							<span>Jonah Killam</span>
@@ -81,7 +81,7 @@
 			</div>
 			</section>
 			<!-- End banner Area -->
-			
+
 			<!-- Start about Area -->
 			<section class="about-area section-gap" id="about">
 				<div class="container">
@@ -91,7 +91,7 @@
 								<h1 class="mb-10">About Me</h1>
 							</div>
 						</div>
-					</div>					
+					</div>
 					<div class="d-flex flex-row justify-content-center align-items-center">
 						<div class="col-md-8">
 							<p>
@@ -99,13 +99,14 @@
 								I will be graduating in April 2019 with a specialization in Electrical Engineering and
 								a Minor in Commerce. Most of my work experience is in software, with an emphasis on
 								embedded systems and machine learning.
+                                <br>TODO: Add more
 							</p>
 						</div>
 					</div>
-				</div>	
+				</div>
 			</section>
 			<!-- End about Area -->
-			
+
 			<!-- Start work-experience Area -->
 			<section class="work-experience-area pt-100 pb-80" id="work-experience">
 				<div class="container">
@@ -116,7 +117,7 @@
 								<!--<p>Who are in extremely love with eco friendly system.</p>-->
 							</div>
 						</div>
-					</div>							
+					</div>
 					<div class="row d-flex justify-content-center">
 						<div class="col-lg-8 col-md-6 qty-left">
 							<div class="single-qly">
@@ -124,21 +125,42 @@
 									Form Athletica
 								</a></h3>
 								<p>May 2018 to September 2018<br></p>
-								<h4 class="mt-10">Embedded Software Engineer Co-op</h4>
+								<h4 class="mt-10 mb-10">Embedded Software Engineer Co-op</h4>
 								<p>
-									TODO
-								</p>							
+									At FORM most of my work focused on developing manufacturing test software to verify
+									the functionality of new PCBs right after they are manufactured. This required writing a
+                                    testing app on a Raspberry Pi that would flash firmware onto new devices, then initiate a
+                                    series of tests. I also had to implement most of the tests in the device's firmware,
+                                    and develop a command line interface so the Raspberry Pi could communicate with the device via
+                                    UART.
+                                </p>
+                                <p>
+                                    During my term I also modified the device's logging functionality to become an asynchronous
+                                    service running on the devices RTOS so that logs would not interfere with timing critical
+                                    processes such as BLE syncing.
+
+								</p>
 							</div>
-							<div class="btm-border d-block mx-auto"></div>								
+							<div class="btm-border d-block mx-auto"></div>
 							<div class="single-qly">
 								<h3 class="text-uppercase"><a href="https://www.xerusmedical.com" target="_blank">
 									Xerus Medical
 								</a></h3>
 								<p>May 2017 to December 2017</p>
-								<h4 class="mt-10">Testing and Validation Engineering Intern</h4>
+								<h4 class="mt-10 mb-10">Testing and Validation Engineering Intern</h4>
 								<p>
-									TODO
-								</p>								
+									At Xerus my work started developing a data processing pipeline and machine learning algorithms
+                                    that could classify a person's activity from smart watch data with 95% accuracy. My work
+                                    then shifted to developing firmware for a custom data logger. This involved debugging sample
+                                    code, finding power inefficiencies, to increase the device's battery life from a few hours to
+                                    weeks. I also optimized the firmware for data transfer to a PC with the device acting as a
+                                    USB mass storage device, increasing the speed by an order of magnitude. I also worked on
+                                    developing firmware for the device to act as a BLE beacon or receiver, for future development
+                                    of real time localization algorithms.
+                                </p>
+                                <p>
+
+								</p>
 							</div>
 							<div class="btm-border d-block mx-auto"></div>
 							<div class="single-qly">
@@ -146,17 +168,17 @@
 									UBC Orthopedics and Injury Biomechanics Group
 								</a></h3>
 								<p>January 2016 to April 2016</p>
-								<h4 class="mt-10">Research Engineer Assistant</h4>
+								<h4 class="mt-10 mb-10">Research Engineer Assistant</h4>
 								<p>
 									TODO
 								</p>
 							</div>
 						</div>
 					</div>
-				</div>	
+				</div>
 			</section>
 			<!-- End qualification Area -->
-			
+
 			<!-- Start project Area -->
 			<section class="project-area section-gap" id="projects">
 				<div class="container">
@@ -255,14 +277,14 @@
 										<span class="sr-only">Next</span>
 									</a>
 								</div>
-							</div>							
+							</div>
 						</div>
 					</div>
-				</div>	
+				</div>
 			</section>
 			<!-- End project Area -->
 
-			<!-- start footer Area -->		
+			<!-- start footer Area -->
 			<footer class="footer-area section-gap" id="contact">
 				<div class="container">
 					<div class="row">
@@ -279,18 +301,18 @@
 						</div>
 					</div>
 				</div>
-			</footer>	
-			<!-- End footer Area -->			
+			</footer>
+			<!-- End footer Area -->
 
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 			<script src="js/vendor/bootstrap.min.js"></script>
 			<script src="js/jquery.ajaxchimp.min.js"></script>
 			<script src="js/jquery.magnific-popup.min.js"></script>
-			<script src="js/parallax.min.js"></script>			
-			<script src="js/owl.carousel.min.js"></script>			
+			<script src="js/parallax.min.js"></script>
+			<script src="js/owl.carousel.min.js"></script>
 			<script src="js/jquery.sticky.js"></script>
 
-			<script src="js/main.js"></script>	
+			<script src="js/main.js"></script>
 		</body>
 	</html>
