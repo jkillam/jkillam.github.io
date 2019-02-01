@@ -1,11 +1,18 @@
 	<!DOCTYPE html>
 	<html lang="zxx" class="no-js">
 	<head>
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Favicon-->
-		<link rel="shortcut icon" href="img/fav.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/fav/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/fav/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/fav/favicon-16x16.png">
+        <link rel="manifest" href="img/fav/site.webmanifest">
+        <link rel="shortcut icon" href="img/fav/favicon.ico">
+        <meta name="msapplication-TileColor" content="#2d89ef">
+        <meta name="msapplication-config" content="img/fav/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
 		<!-- Author Meta -->
 		<meta name="author" content="colorlib">
 		<!-- Meta Description -->
@@ -35,12 +42,10 @@
 				<header class="default-header">
 					<nav class="navbar navbar-expand-lg  navbar-light">
 						<div class="container">
-							  <a class="navbar-brand" href="">
-							  	<img src="img/initials.png" alt="" width="50px">
-							  </a>
-							  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-							    <span class="text-white lnr lnr-menu"></span>
-							  </button>
+                            <img src="img/initials.png" alt="" width="50px">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="text-white lnr lnr-menu"></span>
+                            </button>
 
 							  <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
 							    <ul class="navbar-nav">
@@ -98,7 +103,8 @@
 								I am a fifth year student in Engineering Physics at the University of British Columbia.
 								I will be graduating in April 2019 with a specialization in Electrical Engineering and
 								a Minor in Commerce. Most of my work experience is in software, with an emphasis on
-								embedded systems and machine learning.
+								embedded systems and machine learning. I am currently looking for full time job opportunities
+                                starting in September 2019.
                                 <br>TODO: Add more
 							</p>
 						</div>
@@ -108,7 +114,7 @@
 			<!-- End about Area -->
 
 			<!-- Start work-experience Area -->
-			<section class="work-experience-area pt-100 pb-80" id="work-experience">
+			<section class="work-experience-area section-gap" id="work-experience">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-20 col-lg-8">
@@ -185,15 +191,14 @@
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-20 col-lg-8">
 							<div class="title text-center">
-								<h1 class="mb-10">Projects</h1>
-								<p>Who are in extremely love with eco friendly system.</p>
+								<h1 class="pb-10">Projects</h1>
 							</div>
 						</div>
 					</div>
-					<div class="single-project pb-20">
+					<div class="single-project pb-20" id="iot-gym">
 						<div class="row justify-content-md-center align-items-center">
 							<div class="col-lg-6">
-								<div id="iot-gym" class="carousel slide" data-ride="carousel" data-interval="false" height="100%">
+								<div id="iot-gym-carousel" class="carousel slide" data-ride="carousel" data-interval="false" height="100%">
 								  	<div class="carousel-inner">
 										<div class="carousel-item active">
 									  		<img class="d-block" src="img/curls.gif" alt="">
@@ -202,12 +207,12 @@
 											<img class="d-block" src="img/room_reconstruction.png" alt="">
 										</div>
 								  	</div>
-									<a class="carousel-control-prev" href="#iot-gym" role="button" data-slide="prev">
+									<a class="carousel-control-prev" href="#iot-gym-carousel" role="button" data-slide="prev">
 										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 										<span class="sr-only">Previous</span>
 									</a>
 
-								  	<a class="carousel-control-next" href="#iot-gym" role="button" data-slide="next">
+								  	<a class="carousel-control-next" href="#iot-gym-carousel" role="button" data-slide="next">
 										<span class="carousel-control-next-icon" aria-hidden="true"></span>
 										<span class="sr-only">Next</span>
 									</a>
@@ -226,7 +231,7 @@
 									free weight exercises, count the number of reps performed and detect what weight
 									was used. Data was collected using a Microsoft Kinect camera, and we implemented
 									classification using a RNN, and developed signal processing algorithms for rep
-									counting. Weight decection was done by looking at the color of weights the user was
+									counting. Weight detection was done by looking at the color of weights the user was
 									holding.
 								</p>
 								<p>
@@ -239,7 +244,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="single-project pb-50">
+					<div class="single-project pb-50" id="jett-pace">
 						<div class="row justify-content-md-center align-items-center">
 							<div class="col-lg-6">
 								<h4 class="pb-10">ENPH 253 Robot Competition</h4>
@@ -254,7 +259,7 @@
 								</p>
 							</div>
 							<div class="col-lg-6">
-								<div id="jett-pace" class="carousel slide" data-ride="carousel" data-interval="false">
+								<div id="robot-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
 								  	<div class="carousel-inner">
 										<div class="carousel-item active">
 									  		<img class="d-block w-100" src="img/robot.jpg" alt="First slide">
@@ -267,12 +272,12 @@
 											</div>
 										</div>
 								  	</div>
-									<a class="carousel-control-prev" href="#jett-pace" role="button" data-slide="prev">
+									<a class="carousel-control-prev" href="#robot-carousel" role="button" data-slide="prev">
 										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 										<span class="sr-only">Previous</span>
 									</a>
 
-								  	<a class="carousel-control-next" href="#jett-pace" role="button" data-slide="next">
+								  	<a class="carousel-control-next" href="#robot-carousel" role="button" data-slide="next">
 										<span class="carousel-control-next-icon" aria-hidden="true"></span>
 										<span class="sr-only">Next</span>
 									</a>
