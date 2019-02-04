@@ -8,13 +8,13 @@
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
-  background-color: #8490ff;
-  color: #fff;
+  background-color: #67bbf9;
+  color: #ffffff;
 }
 
 ::selection {
-  background-color: #ffffff;
-  color: #fff;
+  background-color: #67bbf9;
+  color: #ffffff;
 }
 
 ::-webkit-input-placeholder {
@@ -2315,6 +2315,11 @@ h1, h2, h3, h4, h5, h6 {
 .single-qly {
   text-align: center;
   padding: 30px 0px;
+}
+
+.single-qly p{
+  text-align: left;
+  padding: 5px 0px;
 }
 
 .single-qly a {
